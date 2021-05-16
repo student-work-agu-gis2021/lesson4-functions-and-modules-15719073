@@ -63,7 +63,7 @@ print("32 degrees Fahrenheit in Celsius is:",fahr_to_celsius(32))
 # Write your answers below:
 
 # YOUR ANSWER HERE. Write your answers as comments
-#
+#I understand this contents to calculate temperature.
 #
 #
 #
