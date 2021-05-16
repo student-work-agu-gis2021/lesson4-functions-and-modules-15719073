@@ -20,7 +20,23 @@
 
 # YOUR CODE HERE
 def fahr_to_celsius(temp_fahrenheit):
+  """
+  Function for converting temperature in Fahrenheit to Celsius.
 
+  Parameters
+  --------
+  temp_fahrenheit:<numerical>
+      Temperture in Fahrenheit
+
+  Returns
+
+  -----
+  <float>
+      Converted temperature in Celsius
+  """
+  converted_temp=(temp_fahrenheit-32)/1.8
+
+  return converted_temp
 
 
 
@@ -31,7 +47,8 @@ def fahr_to_celsius(temp_fahrenheit):
 # 2. What about 71° Fahrenheit in Celsius?
 
 # ### Check your code
-# 
+print("32 degrees Fahrenheit in Celsius is:",fahr_to_celsius(32))
+
 # - Make sure you used the given variable names
 # - Check that you have added necessary comments to your code
 # - Check that your function has a docstring that describes what it does
